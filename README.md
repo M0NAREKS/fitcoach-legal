@@ -88,7 +88,6 @@ lib/
 ├── services/
 └── ui/
 
-
 ---
 
 ## 🔐 Privacy & Terms
