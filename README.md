@@ -124,11 +124,3 @@ oguzhanbodur23@gmail.com
 
 
 ---
-
-# 🔥 SENİN YAPMAN GEREKEN (ÖNEMLİ)
-
-Linkleri değiştir:
-
-```text
-https://your-username.github.io/nudge/privacy.html
-https://your-username.github.io/nudge/terms.html
