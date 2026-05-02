@@ -121,6 +121,3 @@ Premium features
 
 For questions or feedback:
 oguzhanbodur23@gmail.com
-
-
----
