@@ -3,50 +3,86 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Nudge is an AI-powered fitness and nutrition app for workout planning, nutrition tracking, and daily guidance." />
   <title>Nudge – AI-Powered Fitness & Nutrition App</title>
+  <link rel="icon" href="assets/logo.png" />
+  <link rel="apple-touch-icon" href="assets/logo.png" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <main class="page">
-    <section class="hero">
-      <div class="logo-row">
-        <img src="assets/logo.png" alt="Nudge Logo" class="logo" />
-        <h1 class="brand">Nudge</h1>
+    <nav class="nav">
+      <a class="nav-brand" href="index.html">
+        <img class="nav-logo" src="assets/logo.png" alt="Nudge logo" />
+        <span>Nudge</span>
+      </a>
+      <div class="nav-links">
+        <a class="active" href="index.html">Home</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+        <a href="support.html">Support</a>
+        <a href="delete-account.html">Delete Account</a>
       </div>
+    </nav>
 
-      <h2>AI-Powered Fitness & Nutrition App</h2>
+    <section class="hero">
+      <div class="hero-content">
+        <div class="eyebrow">AI-powered daily fitness guidance</div>
+        <h1>Nudge</h1>
+        <p class="lead">
+          Nudge helps users build healthier habits with AI-driven workout planning,
+          nutrition tracking, and simple daily actions.
+        </p>
+        <div class="cta-row">
+          <a class="btn" href="privacy.html">Privacy Policy</a>
+          <a class="btn secondary" href="terms.html">Terms of Service</a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <img class="app-logo-large" src="assets/logo.png" alt="Nudge app logo" />
+      </div>
+    </section>
 
-      <p class="subtitle">
-        Nudge helps users build healthier habits through AI-driven workout planning,
-        nutrition tracking, and simple daily guidance.
-      </p>
+    <section class="grid" aria-label="App features">
+      <article class="card">
+        <div class="card-icon">🏋️</div>
+        <h3>Workout Flow</h3>
+        <p>AI-generated plans are executed through a clear workout flow: preparation, warm-up, active workout, rest, cooldown, and summary.</p>
+      </article>
+      <article class="card">
+        <div class="card-icon">🍽️</div>
+        <h3>Nutrition Tracking</h3>
+        <p>Users can track calories, macros, meals, and daily nutrition progress with simple logging tools.</p>
+      </article>
+      <article class="card">
+        <div class="card-icon">🧠</div>
+        <h3>AI Coach</h3>
+        <p>Nudge provides contextual guidance and recommendations based on user goals and daily activity.</p>
+      </article>
+    </section>
 
+    <section class="section">
+      <h2>Workout Architecture</h2>
+      <p>The workout system is designed as a guided state flow, not a static plan list.</p>
+      <div class="flow">
+        <span>Ready</span>
+        <span>Pre-workout</span>
+        <span>Warm-up</span>
+        <span>Workout</span>
+        <span>Rest</span>
+        <span>Cooldown</span>
+        <span>Summary</span>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Legal & Support</h2>
+      <p>Review the legal documents and support information for Nudge below.</p>
       <div class="links">
         <a class="btn" href="privacy.html">Privacy Policy</a>
         <a class="btn secondary" href="terms.html">Terms of Service</a>
+        <a class="btn secondary" href="support.html">Support</a>
       </div>
-    </section>
-
-    <section class="section">
-      <h2>Features</h2>
-      <ul>
-        <li>AI-generated workout plans</li>
-        <li>Step-by-step workout flow</li>
-        <li>Nutrition and macro tracking</li>
-        <li>AI coach for personalized guidance</li>
-        <li>Daily insights and habit tracking foundation</li>
-      </ul>
-    </section>
-
-    <section class="section">
-      <h2>Legal</h2>
-      <p>
-        You can review how Nudge handles user data and usage terms through the links below.
-      </p>
-      <ul>
-        <li><a href="privacy.html">Privacy Policy</a></li>
-        <li><a href="terms.html">Terms of Service</a></li>
-      </ul>
     </section>
 
     <p class="footer">© 2026 Nudge. All rights reserved.</p>
