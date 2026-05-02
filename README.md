@@ -90,9 +90,23 @@ lib/
 ```
 ---
 
-## 🔐 Privacy & Terms
+## 🔐 Legal
 
 - [Privacy Policy](https://m0nareks.github.io/Nudge-legal/privacy.html)
 - [Terms of Service](https://m0nareks.github.io/Nudge-legal/terms.html)
 
 ---
+
+## 🧪 Status
+
+This project is under active development.
+
+Current focus:
+- Workout flow system
+- AI plan generation
+- UI/UX improvements
+
+Planned:
+- Adaptive workout engine
+- Wearable integrations
+- Advanced analytics
