@@ -1,0 +1,134 @@
+:root {
+  --bg: #111633;
+  --bg-dark: #0b1028;
+  --card: #222b59;
+  --card-2: #2b2452;
+  --border: #3a4575;
+  --text: #f4f6ff;
+  --muted: #b8bed6;
+  --accent: #f47c2c;
+  --accent-soft: rgba(244, 124, 44, 0.16);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+  background:
+    radial-gradient(circle at top right, rgba(244, 124, 44, 0.16), transparent 30%),
+    linear-gradient(180deg, var(--bg-dark), var(--bg));
+  color: var(--text);
+}
+
+.page {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.hero {
+  background: linear-gradient(135deg, var(--card), var(--card-2));
+  border: 1px solid var(--border);
+  border-radius: 28px;
+  padding: 36px;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.35);
+}
+
+.logo-row {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 28px;
+}
+
+.logo {
+  width: 64px;
+  height: 64px;
+  border-radius: 18px;
+  object-fit: cover;
+  background: var(--accent-soft);
+  padding: 6px;
+}
+
+.brand {
+  font-size: 34px;
+  font-weight: 800;
+  margin: 0;
+}
+
+.subtitle {
+  color: var(--muted);
+  font-size: 18px;
+  line-height: 1.6;
+  max-width: 760px;
+}
+
+.section {
+  margin-top: 28px;
+  background: rgba(34, 43, 89, 0.72);
+  border: 1px solid var(--border);
+  border-radius: 24px;
+  padding: 28px;
+}
+
+h1, h2, h3 {
+  color: var(--text);
+}
+
+h2 {
+  margin-top: 0;
+}
+
+p, li {
+  color: var(--muted);
+  line-height: 1.7;
+}
+
+a {
+  color: var(--accent);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.links {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+  margin-top: 24px;
+}
+
+.btn {
+  background: var(--accent);
+  color: white;
+  padding: 14px 18px;
+  border-radius: 16px;
+  text-decoration: none;
+  font-weight: 800;
+}
+
+.btn.secondary {
+  background: rgba(255,255,255,0.08);
+  border: 1px solid var(--border);
+  color: var(--text);
+}
+
+code, pre {
+  background: rgba(0,0,0,0.25);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  color: var(--text);
+}
+
+.footer {
+  text-align: center;
+  color: var(--muted);
+  margin-top: 32px;
+  font-size: 14px;
+}
