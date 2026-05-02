@@ -77,17 +77,17 @@ Ready → PreWorkout → WarmUp → Workout → Rest → Cooldown → PostWorkou
 
 ## 📦 Project Structure (Simplified)
 
-
+```
 lib/
 ├── core/
 ├── features/
-│ ├── workout/
-│ ├── nutrition/
-│ ├── coach/
+│   ├── workout/
+│   ├── nutrition/
+│   ├── coach/
 ├── providers/
 ├── services/
 └── ui/
-
+```
 ---
 
 ## 🔐 Privacy & Terms
